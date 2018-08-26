@@ -1,0 +1,31 @@
+
+header{
+    width: 1200px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.logo{
+    float: left;
+    margin-right: 480px;
+    cursor: pointer;
+}
+
+.bar-menu{
+    font-size: 18px;
+    margin-top: 30px;
+    margin-left: 58px;
+    text-transform: uppercase;
+    color: rgb(172,231,220);
+    float: left;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bar-menu:hover{
+    cursor: pointer;
+    color: #f38181;
+    margin-top: 25px;
+    transition: 0.5s;
+    border-bottom: 3px solid #f38181;
+    padding-bottom: 5px;
+}
