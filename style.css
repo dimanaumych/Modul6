@@ -264,7 +264,7 @@ button{
     background: linear-gradient(to top, rgba(252, 227, 138, 0.81) 0%, rgba(243, 129, 129, 0.81) 100%);
     z-index: 1;
     opacity: 0;
-    transform: translate(-3%, -2%);
+    transform: translate(0, 0);
     
     
 }
@@ -286,7 +286,7 @@ button{
     background: linear-gradient(to top, rgba(252, 227, 138, 0.81) 0%, rgba(243, 129, 129, 0.81) 100%);
     z-index: 1;
     opacity: 0;
-    transform: translate(3%, -2%);
+    transform: translate(0, 0);
 }
 
 .animation-back{
@@ -358,6 +358,7 @@ button{
 .photo-team:hover .animation{
     opacity: 1;
     transition: 0.5s linear;
+    transform: translate(-3%, -2%);
 }
 
 .photo-team:hover .animation-back{
@@ -373,6 +374,7 @@ button{
 .photo-team-right:hover .animation-right{
     opacity: 1;
     transition: 0.5s linear;
+    transform: translate(3%, -2%);
 }
 
 .photo-team-right:hover .animation-back{
